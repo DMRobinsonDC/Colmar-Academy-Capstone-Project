@@ -1,0 +1,112 @@
+/* Universal Styles */
+html {
+
+}
+
+.header {
+    height: 4rem;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Header Section */
+.list {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav-list {
+    /* text-align: right; */
+    /* justify-content: flex-end; */
+    padding-right: 1.5rem;
+}
+
+/* Learn Something New Section */
+.learn-something-new {
+    background-color: lightgray;
+    display: inline-flex;
+}
+
+.banner {
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.type-container {
+    margin-right: 4rem;
+}
+
+.type-container h3 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: .5rem 0rem;
+}
+
+/* Keep Practicing Section */
+.keep-practicing {
+    display: inline-flex;
+}
+
+.kp {
+    width: 60%;
+    height: auto;
+    margin-right: 1.5rem;
+    background-color: aqua;
+    /* display: flex; */
+}
+
+.banner2 {
+    width: 100%;
+    height: auto;
+    margin: 2rem 1.5rem;
+}
+
+.keep-practicing h1 {
+    margin: 0rem 0rem 1.5rem 1.5rem;
+}
+
+.keep-practicing p {
+    width: 60%;
+    margin: 0rem 0rem 2rem 1.5rem;
+}
+
+.keep-practicing h5 {
+    margin: 0rem 0rem 2rem 1.5rem;
+}
+
+.ogl {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 1rem; */
+    /* margin-left: 1.5rem; */
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.small-image {
+    width: 35%;
+    height: auto;
+    /* margin: 1rem; */
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.small-image1 {
+    width: 35%;
+    height: auto;
+    /* margin: 1rem; */
+    margin: 0rem 1rem 1rem 0rem;
+}
+
+.small-container {
+    display: inline-flex;
+    background-color: chocolate;
+}
+
+.read-more {
+    color: deepskyblue;
+}
