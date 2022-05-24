@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;800&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
     <!-- <div class="header">   
         <img src="./Resources/images/ic-logo.svg" alt="">
         <span>ColmarAcademy</span>
     </div> -->
-    <nav class="header" id="space-between">
+    <nav class="header desktop" id="space-between">
         <div class="center-test" id="padding-left">
             <img class="logo" src="./Resources/images/ic-logo.svg" alt="">
             <span class="text1"><strong>COLMAR</strong></span><span class="text2">ACADEMY</span>
@@ -26,51 +28,87 @@
             </ul>
         </div>
     </nav>
+    <nav class="header mobile center-test" id="space-between">
+        <img class="logo-mobile" src="./Resources/images/ic-logo.svg" alt="">
+        <img class="logo-mobile" src="./Resources/images/ic-on-campus.svg" alt="">
+        <img class="logo-mobile" src="./Resources/images/ic-online.svg" alt="">
+        <img class="logo-mobile" src="./Resources/images/ic-login.svg" alt="">
+    </nav>
+
     
-    <div class="learn-something-new">
-        <img class="banner" src="./Resources/images/banner.jpg" alt="">
+    <div class="learn-something-new lightgray-background desktop">
+        <div class="lsn-image-container">
+            <img class="banner" src="./Resources/images/banner.jpg" alt="">
+        </div>
         <div id="column-test">
-            <div class="type-container">
-                <h1>Learn something new everyday</h1>
-                <h2>Loremn ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <div class="type-container rubik">
+                <h1 class="darkbrown-text">Learn something new everyday</h1>
+                <h2 class="darkbrown-text">Loremn ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                 <h3>Start Here</h3>
             </div>
         </div>
     </div>
+    <div class="mobile">
+        <img class="banner-mobile" src="./Resources/images/banner.jpg" alt="">
+        <div class="button-center rubik">
+            <h1 class="darkbrown-text padding-left-mobile">Learn something new everyday</h1>
+            <h2 class="darkbrown-text padding-left-mobile">Loremn ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <h3 class="button-mobile"><b>Start Here</b></h3>
+        </div>
 
-    <div class="keep-practicing">
-        <div class="kp">
+    </div>
+
+
+    <div class="keep-practicing desktop">
+        <div class="kp rubik">
             <img class="banner2" src="./Resources/images/information-main.jpg" alt="">
-            <h1>It doesn't hurt to keep practicing</h1>
-            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
+            <h1 class="lightgray-text">It doesn't hurt to keep practicing</h1>
+            <p class="lightgray-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
                 nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. 
                 Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
             </p>
-            <h5>Emanuel, Sr Strategist at Hiring.com</h5>
+            <h5 class="lightgray-text">Emanuel, Sr Strategist at Hiring.com</h5>
         </div>
-        <div class="ogl">
+        <div class="ogl rubik">
             <div class="small-container">
                 <img class="small-image1" src="./Resources/images/information-orientation.jpg" alt="">
-                <span><h2>Orientation Date</h2>
+                <span class="lightgray-text"><h2>Orientation Date</h2>
                 <h3>Tue 10/11 & Wed 10/12: 8am-3pm</h3>
                 <h3 class="read-more">Read more</h3></span>
             </div>
             <div class="small-container">
                 <img class="small-image" src="./Resources/images/information-campus.jpg" alt="">
-                <span><h2>Our Campus</h2>
+                <span class="lightgray-text"><h2>Our Campus</h2>
                 <h3>Find which campus is close by you</h3>
                 <h3 class="read-more">Read more</h3></span>
             </div>
             <div class="small-container">
                 <img class="small-image" src="./Resources/images/information-guest-lecture.jpg" alt="">
-                <span><h2>Our Guest Lecture</h2>
+                <span class="lightgray-text"><h2>Our Guest Lecture</h2>
                 <h3>Join a keynote with Oliver Sack about music in medical treatment</h3>
                 <h3 class="read-more">Read more</h3></span>
             </div>
         </div>
     </div>
+    <div class="mobile padding-sides-top darkbrown-background rubik">
+        <img class="small-image-mobile" src="./Resources/images/information-orientation-mobile.jpg" alt="">
+        <span class="lightgray-text"><h2 class="padding-left-mobile">Orientation Date</h2>
+            <h3 class="padding-left-mobile">Tue 10/11 & Wed 10/12: 8am-3pm</h3>
+            <h3 class="read-more-mobile padding-left-mobile">Read more</h3>
+        </span>
+        <img class="small-image-mobile" src="./Resources/images/information-campus-mobile.jpg" alt="">
+        <span class="lightgray-text"><h2 class="padding-left-mobile">Our Campus</h2>
+            <h3 class="padding-left-mobile">Find which campus is close by you</h3>
+            <h3 class="read-more-mobile padding-left-mobile">Read more</h3>
+        </span>
+        <img class="small-image-mobile" src="./Resources/images/information-guest-lecture-mobile.jpg" alt="">
+        <span class="lightgray-text"><h2 class="padding-left-mobile">Our Guest Lecture</h2>
+            <h3 class="padding-left-mobile">Join a keynote with Oliver Sack about music in medical treatment</h3>
+            <h3 class="read-more-mobile padding-left-mobile">Read more</h3>
+        </span>
+    </div>
 
-    <div class="start-learning">
+    <div class="start-learning desktop rubik">
         <h1 id="center">Start Learning</h1>
         <div class="sl-container" id="space">
             <div class="card-container">
@@ -127,12 +165,25 @@
             </div>
         </div>
     </div>
-    <h1 id="center-te">Thesis Exhibit</h1>
-    <div class="keep-practicing">
+    <div class="mobile padding-sides-top2 rubik">
+        <h1 class="no-margin-mobile" id="center">Start Learning</h1>
+        <ul class="">
+            <li class="list-mobile"><b>Software Engineering</b></li>
+            <li class="list-mobile"><b>Computer Art</b></li>
+            <li class="list-mobile"><b>Design</b></li>
+            <li class="list-mobile"><b>Data</b></li>
+            <li class="list-mobile"><b>Business</b></li>
+            <li class="list-mobile"><b>Marketing</b></li>
+        </ul>
+    </div>
+    <div class="desktop rubik">
+    <h1 id="center-te" class="lightgray-text">Thesis Exhibit</h1>
+    </div> 
+    <div class="keep-practicing desktop rubik">
         <div class="kp">
             <video class="banner2" autoplay muted loop src="./Resources/videos/thesis.mp4"></video>
-            <h2>Reimagine urban</h2>
-            <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
+            <h2 class="lightgray-text">Reimagine urban</h2>
+            <p class="lightgray-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
                 nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. 
                 Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."
             </p>
@@ -140,24 +191,35 @@
         <div class="ogl">
             <div class="small-container">
                 <img class="small-image1" src="./Resources/images/thesis-fisma.jpg" alt="">
-                <span><h2>Fisma: Design and Prototype</h2>
-                <h3>Designer showcase of new prototype product</h3>
+                <span class="lightgray-text"><h2>Fisma: Design and Prototype</h2>
+                <h3 class="lightgray-text">Designer showcase of new prototype product</h3>
             </div>
             <div class="small-container">
                 <img class="small-image" src="./Resources/images/thesis-now-and-then.jpg" alt="">
-                <span><h2>Now and then</h2>
-                <h3>Research study about New York</h3>
+                <span class="lightgray-text"><h2>Now and then</h2>
+                <h3 class="lightgray-text">Research study about New York</h3>
             </div>
         </div>
     </div>
-    <nav class="footer" id="space-between">
+    <div class="mobile darkbrown-background rubik">
+        <h1 id="center-te-mobile" class="lightgray-text">Thesis Exhibit</h1>
+        <video class="banner2-mobile" autoplay muted loop src="./Resources/videos/thesis.mp4"></video>
+    </div>
+
+    <nav class="desktop footer rubik" id="space-between">
         <div id="padding-left">
-            <h5>2016 Colmar Academy. All rights reserved</h5>
+            <h5>© 2016 Colmar Academy. All rights reserved</h5>
         </div>
-        <div id="padding-right">    
+        <div id="padding-right" class="desktop">    
             <h5 class="list2">Terms</h5>
             <h5 class="list2">Privacy</h5>
         </div>
     </nav>
+    <nav class="footer-mobile mobile rubik" id="space-between">
+        <div id="padding-left">
+            <h5>© 2016 Colmar Academy. All rights reserved</h5>
+        </div>
+    </nav>
+
 </body>
 </html>
